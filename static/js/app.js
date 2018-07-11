@@ -12,6 +12,7 @@ $("#search_weather").submit(event => {
     q: searchTerm,
     appid: ""
   };
+
   function showWeather(response) {
     // console.log(response);
     var high = (response.main.temp_max - 273.15).toFixed(0) + "&deg";
