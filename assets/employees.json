@@ -1,9 +1,10 @@
 {
 	"employees": [{
-			"name": "Max",
-			"salary": 56000,
-			"title": "Designer",
-			"attendance": true
+			"Name": "Max",
+			"Salary": 56000,
+			"Title": "Designer",
+			"Attendance": true,
+      "Age":27
 		},
 		{
 			"name": "John",
