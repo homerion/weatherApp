@@ -27,14 +27,14 @@ function enumerate(response) {
     row.append(col);
 
   }
-  $("#table-head").append(row);
+  $("thead:first").append(row);
   for (i=0; i<response.employees.length;i++){
     var row = $("<tr></tr>");
     for (val in response.employees[i]){
       var col = $("<td></td>").text(response.employees[i][val]);
       row.append(col);
   }
-    $("#table-body").append(row);
+    $("tbody:first").append(row);
   }
 }
 
